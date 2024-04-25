@@ -1,7 +1,6 @@
 const chargeLevel = document.getElementById("charge-level");
 const charge = document.getElementById("charge");
 const chargingTimeRef = document.getElementById("charging-time");
-
 window.onload = () => {
   //For browsers that don't support the battery status API
   if (!navigator.getBattery) {
